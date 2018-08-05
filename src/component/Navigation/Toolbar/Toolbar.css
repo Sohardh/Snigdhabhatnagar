@@ -1,0 +1,51 @@
+
+.link {
+	float: right;
+	z-index: 300;
+	position: absolute;
+	right: 1vw;
+	font-size: 34px;
+	position: fixed;
+	display: flex;
+	flex-flow: row;
+}
+
+.link a {
+	text-decoration: none;
+	padding: 8px;
+	background-color:  rgba(0,0,0,0.7);
+	color: white;
+	font-family:  Abel;
+	margin: 0.1vw;
+	border-bottom: transparent;
+	transition: background-color 0.3s ease-in-out;
+	transition: border-bottom 0.3s linear;
+
+}
+
+.link a:hover {
+	background-color: rgba(0,0,0,0.5);
+	border-bottom: 5px solid #ffcc5c ;
+	margin: 0.1vw;
+	border-radius: 5%;
+}
+
+@media (max-width: 499px) {
+	.link {
+	    flex-flow: column;
+	    width: 100%;
+	    position: absolute;
+	    top: 0;
+	   
+	}
+	.link a {
+		text-align: center;
+		background-color: rgba(0,0,0,0.9);
+		font-size: 5vw;
+		margin: 0;
+
+	}
+	.link a:hover {
+		background-color: #3b3a30
+	}
+}

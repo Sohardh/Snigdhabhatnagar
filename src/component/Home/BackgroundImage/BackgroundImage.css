@@ -1,0 +1,85 @@
+
+.backgroundImage {
+	width: 100%;
+    height: 600px;
+    background-image: url('../../../assets/portnew2.png');
+    background-size: cover;
+
+    z-index: 150;
+}
+.intro {
+	font-family: Courier New;
+	float:right;
+	font-size: 32px;
+	position: absolute;
+	top: 15vw;
+	right: 3vw;
+	max-width: 50%;
+}
+
+@media(max-width: 500px) {
+	.intro {
+		font-size: 24px;
+		max-width: 50%;
+		right: -1vw;
+	}
+	.backgroundImage {
+		height: 350px;
+	}
+	.hi:after{
+	display: none;
+}
+	.hi{
+		font-size: 7vw;
+	}
+}
+.l1{
+	animation: appear 0.5s ;
+}
+@keyframes appear{
+	from{opacity: 0;}
+	80%{opacity:0;}
+	to{opacity: 1;}
+}
+.l2{
+	animation: appear 2s;
+}
+.l3{
+	animation: appear 3s;
+
+}
+.l4{
+	animation: appear 4s;
+}
+
+.l5{
+	animation: appear 5s;
+}
+.txt {
+	font-size: 45px;
+}
+.hi{
+	width: auto;
+	height: auto;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	font-weight: 500;
+
+}
+@keyframes transition{
+	from{border-right-width:80px;}
+	     to{border-right-width:60px;}
+}
+.hi:after {
+	border-right: 80px solid rgba(0,0,0,0.4);
+	border-top: 80px solid transparent;
+	border-bottom: 80px solid transparent;
+	content: "";
+    position: absolute;
+    left: -80px;
+    bottom: -20px;
+    width: 0;
+    height: 0;
+    animation: transition 2s ease-in infinite ;
+    animation-direction: alternate-reverse;
+
+}

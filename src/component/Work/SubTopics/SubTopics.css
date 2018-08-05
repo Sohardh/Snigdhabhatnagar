@@ -1,0 +1,95 @@
+.Work{
+  color: #2f0000;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.image {
+  border-radius: 50%;
+  width:30px;
+}
+.Work span {
+  cursor: pointer;
+  margin:0 5px;
+}
+.head {
+  text-align: center;
+  position: relative;
+  z-index: 100;
+  font-size: 32px;
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    padding:16px 0;
+    border-radius: 10px;
+      transition: background-color 0.3s ;
+      -webkit-transition: background-color 0.3s ;
+       transition: transform 0.5s ;
+       -webkit-transition: transform 0.5s ;
+}
+.back {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left:0;
+  background-color: rgba(0,0,0,0);
+}
+.WorkP {
+  border:6px solid #666;  
+  border-radius:6px;
+  box-sizing: border-box;
+  width: 80%;
+  height:auto;
+  margin:auto;
+  position: relative;
+  box-shadow:  2px 2px 4px #888;
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  z-index: 150;
+  background:radial-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3), rgba(0,0,0,0.4));
+  
+ 
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+.WorkP::before {
+  left: 48%;
+  content: ' ';
+  bottom:100%;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid;
+  border-width: 20px 20px 20px 20px;
+  border-color: transparent transparent  #666 transparent;
+}
+.WorkP::after {
+
+  content: ' ';
+  bottom:100%;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 15px 15px 15px 15px;
+  border-color: transparent transparent  #fff transparent;
+    transition: 3s ease-in-out;
+  -webkit-transition: 3s ease-in-out;
+
+
+}
+
+.head:hover {
+  transform: skewX(20deg);
+  -webkit-transform:skewX(20deg);
+  background: radial-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4), rgba(0,0,0,0.6));
+
+}
+
+
+
+
+

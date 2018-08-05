@@ -1,0 +1,11 @@
+.Icons {
+	margin-right: 3vw;
+	margin-bottom: 3vw;	
+}
+.Icons:hover {
+    border-left: 6px solid #fff;
+    border-right: 6px solid #fff;
+    border-radius: 50%;
+    filter: invert(70%);
+
+}

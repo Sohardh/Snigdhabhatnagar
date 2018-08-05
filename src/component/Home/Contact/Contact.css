@@ -1,0 +1,79 @@
+.Contact {
+	text-align: center;
+	font-family: Abel, serif;
+
+}
+label {
+	color: white;
+}
+h2 {
+	text-align: center;
+	font-family: Abel, serif;
+    font-size: 38px;
+}
+
+h3 {
+	text-align: center;
+	font-family: Abel;
+    font-size: 28px;
+
+}
+.button {
+    background-color: #3b3a30;
+    padding: 10px;
+    font-family: Abel;
+    text-align: center;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    color: white;
+    font-size: 32px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 6px 8px #888888;
+    margin-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e7b798;
+    background-color: #ffece4;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #bf8970;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #ffece4;
+    color: black;
+}
+
+.container {
+    border-radius: 10px;
+    background-color:#3b3a30;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 20px;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 20px;
+
+}
+
+.container label {
+	font-size: 22px;
+}

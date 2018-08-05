@@ -1,0 +1,34 @@
+body {
+	background-color:#e3e0cc;
+}
+.About {
+	font-family: Abel;
+}
+.About h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+.About ul {
+	margin-left: 180px;
+	list-style: none;
+}
+.About p {
+	z-index: 150;
+	margin: 0 10vw; 
+}
+@media (max-width: 500px) {
+	.About img {
+		top: 150px;
+	}
+}
+.txt {
+	font-size: 28px;
+}
+.About span {
+	display: flex;
+	flex-flow: row;
+
+}

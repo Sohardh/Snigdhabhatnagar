@@ -1,0 +1,20 @@
+.Sign {
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 45px;
+	display: table-cell;
+	float: left;
+	position: relative;
+	z-index: 300;
+	position: fixed;
+	width: 50%;
+	margin-top: 0.5vw;
+	color: Black;
+	background-color: none;
+
+}
+@media (max-width:500px){
+	.Sign {
+   font-size: 28px;
+	}
+}
+

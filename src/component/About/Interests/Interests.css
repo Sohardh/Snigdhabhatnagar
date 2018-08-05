@@ -1,0 +1,21 @@
+.container .row{
+	text-align: center;
+	margin: 20px;
+}
+.container .row img {
+	margin: 0 20px;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	-webkit-animation:transform 5s infinite;
+	animation: transform 5s infinite;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+}
+
+@keyframes transform {
+	from {transform:rotateY(0deg);
+		-webkit-transform:rotateY(0deg);}
+	to{transform: rotatey(360deg);
+		-webkit-transform:rotateY(360deg);}
+}
